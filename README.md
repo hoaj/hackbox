@@ -26,3 +26,5 @@ Alessandro Bruni for some flask specific functions.
 This site for the template: https://onepagelove.com/aria
 
 Emil Kristoffersen for styling notes.html and note.html
+
+ITU Group project
