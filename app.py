@@ -155,7 +155,7 @@ def register():
         if(not errored):
             statement = """INSERT INTO users(id,username,password) VALUES(null,?,?);"""
             print(statement, (username, password))
-            c.execute(statement, username, password)
+            c.execute(statement, (username, password))
             db.commit()
             db.close()
             return f"""<html>
